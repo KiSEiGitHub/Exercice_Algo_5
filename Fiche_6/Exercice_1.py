@@ -13,8 +13,8 @@ class multiple_boucle:
     @staticmethod
     def boucle_3():
         for i in range(18, 45):
-            if i % 2 == 0:
-                print(i)
+            print(i)
+
 
 def main():
     print('Boucle 1')
@@ -27,6 +27,7 @@ def main():
 
     print('Boucle 3')
     multiple_boucle.boucle_3()
+
 
 if __name__ == '__main__':
     main()
